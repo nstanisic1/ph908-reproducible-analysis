@@ -1,0 +1,65 @@
+# R session and workspace files
+.Rhistory
+.RData
+.Ruserdata
+
+# Project-local environment files
+.Rproj.user/
+renv/library/
+renv/staging/
+renv/python/
+
+# Logs from pipeline runs
+logs/
+*.log
+
+# Generated analysis outputs
+results/*
+facts/*
+figuredata/*
+tables/*
+figures/*
+
+# Generated supplement previews and exports
+supplement/tables_preview_html/*
+supplement/tables_preview_csv/*
+supplement/*.html
+supplement/*.csv
+supplement/*.pdf
+supplement/*.png
+supplement/*.jpg
+supplement/*.jpeg
+supplement/*.svg
+
+# Keep directory placeholders if present
+!results/.gitkeep
+!facts/.gitkeep
+!figuredata/.gitkeep
+!tables/.gitkeep
+!figures/.gitkeep
+!supplement/.gitkeep
+!supplement/tables_preview_html/.gitkeep
+!supplement/tables_preview_csv/.gitkeep
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# Manuscript working files
+manuscript.docx
+manuscript.pdf

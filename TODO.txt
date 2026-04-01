@@ -1,0 +1,57 @@
+Yes — that sequence is right.
+
+## Correct order
+
+1. **Wait for `run_all.R` to finish**
+2. **Check the run logs and step summary**
+3. **Cross-check facts, tables, and figures against the manuscript**
+4. **If everything matches, commit and push from the project root**
+5. **Then make the repo public, create the release, connect Zenodo, and update the manuscript’s Data Availability / Code Availability text**
+
+That last point matters because the manuscript still says the dataset and code **“will be made publicly available in a permanent repository upon publication”**, so after the repo/release are final, those statements should be updated with the real repository/archive information before final submission. 
+
+## Yes, these are the right Git commands
+
+Run them **from the working directory** after the final validation:
+
+```bash
+git add .
+git commit -m "Finalize reproducible PH908 analysis pipeline"
+git branch -M main
+git push -u origin main
+```
+
+## One small improvement
+
+Before `git add .`, do this first:
+
+```bash
+git status
+```
+
+That gives one last sanity check that:
+
+* only the files you want are being tracked
+* generated-output folders are being ignored as intended
+* no junk files slipped in
+
+So the safest final sequence is:
+
+```bash
+git status
+git add .
+git commit -m "Finalize reproducible PH908 analysis pipeline"
+git branch -M main
+git push -u origin main
+```
+
+## After the push
+
+Then the next steps are:
+
+* switch the GitHub repo from **private** to **public**
+* create the first tagged release
+* connect GitHub to Zenodo and mint the archive DOI
+* update the manuscript’s repository/availability statements with the final links 
+
+So yes: your plan is correct, with the added `git status` check right before the commit.

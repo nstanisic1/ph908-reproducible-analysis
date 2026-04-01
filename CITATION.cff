@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "PH908 Reproducible Analysis Pipeline"
+message: "If you use this repository, please cite the associated manuscript and repository release."
+type: software
+authors:
+  - family-names: "Stanisic"
+    given-names: "Nemanja"
+    affiliation: "Singidunum University, Belgrade, Serbia"
+    email: "nstanisic@singidunum.ac.rs"
+repository-code: "https://github.com/nstanisic1/ph908-reproducible-analysis"
+abstract: >
+  Reproducible R pipeline for the manuscript
+  “I2a-PH908 branch structure supports a western-Balkan reservoir rather than
+  a simple Slavic-period recipient model”. The repository contains deterministic
+  preprocessing, six analytical pillars, figure and table rendering scripts,
+  and publication-oriented outputs used to reproduce the manuscript results
+  from curated branch-level input data.
+license: "MIT"
+keywords:
+  - Y chromosome
+  - PH908
+  - R1a
+  - Balkans
+  - phylogeography
+  - reproducible research
+  - population genetics
+version: "1.0.0"
+date-released: 2026-03-31
