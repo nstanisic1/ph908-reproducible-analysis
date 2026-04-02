@@ -1,5 +1,6 @@
 cff-version: 1.2.0
 title: "PH908 Reproducible Analysis Pipeline"
+doi: 10.5281/zenodo.19389412
 message: "If you use this repository, please cite the associated manuscript and repository release."
 type: software
 authors:
