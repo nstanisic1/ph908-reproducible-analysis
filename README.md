@@ -159,15 +159,19 @@ The six analytical pillars evaluate:
 
 ## Data and code availability
 
-**Code availability:** the deterministic R scripts used to reproduce all analyses, figures, and derived outputs in this study are provided in this repository.
+**Code availability:** the deterministic R scripts used to reproduce all analyses, figures, and derived outputs in this study are provided in this repository and archived on Zenodo at https://doi.org/10.5281/zenodo.19389412
 
 **Repository:** https://github.com/nstanisic1/ph908-reproducible-analysis
 
-**Data availability:** the curated input files required to regenerate the preprocessed dataset and downstream analytical outputs are provided in this repository.
+**Data availability:** the curated input files required to regenerate the preprocessed dataset and downstream analytical outputs are provided in this repository and archived on Zenodo at https://doi.org/10.5281/zenodo.19389412
 
 ## Citation
 
-If you use this repository, please cite the associated manuscript and this software repository. Citation metadata are provided in `CITATION.cff`.
+If you use this repository, please cite the associated manuscript and the archived software release:
+
+Stanisic, N. *PH908 Reproducible Analysis Pipeline* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.19389412
+
+Citation metadata are also provided in `CITATION.cff`.
 
 ## License
 
